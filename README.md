@@ -6,8 +6,12 @@ A PHP library to visualize PHP Array
  - browser with css flex support
 
 
-### Usage
+##Installation
+ - Clone or download this repository
+ - Include 'src/autoloader.php' in your project
 
+
+### Usage
 ```php
 
 require( 'src/autoloader.php' );
@@ -46,4 +50,4 @@ echo $helper->toHTML( $array );
 
 ### Screenshot
 
-![html](screenshot.png?raw=true "ArrayView")
+![html](screen.png?raw=true "ArrayView")
