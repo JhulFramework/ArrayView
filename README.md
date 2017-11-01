@@ -6,7 +6,7 @@ A PHP library to visualize PHP Array
  - browser with css flex support
 
 
-##Installation
+### Installation
  - Clone or download this repository
  - Include 'src/autoloader.php' in your project
 
