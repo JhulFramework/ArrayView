@@ -1,18 +1,7 @@
-A PHP library to visualize PHP Array
 
+<?php require( 'src/autoloader.php' );
 
-### Requirement
- - PHP version >= 5.6
- - browser with css flex support
-
-
-### Usage
-
-```php
-
-require( 'src/autoloader.php' );
-
-$helper = new \Jhul\Component\HTML\Helper\ArrayView\Helper();
+$helper = new \Jhul\Component\HTML\Helper\ArrayView\Helper;
 
 $array =
 [
@@ -42,8 +31,3 @@ $array =
 ];
 
 echo $helper->toHTML( $array );
-```
-
-### Screenshot
-
-![html](screenshot.png?raw=true "ArrayView")
